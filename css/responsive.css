@@ -3,5 +3,27 @@
 @media screen and (max-width: 1024px) {
 }
 
-@media screen and (max-width: 768px) {
+@media only screen and (max-width: 768px) {
+  #future-continer {
+    padding: 40px;
+  }
+}
+
+@media only screen and (max-width: 580px) {
+  .continer {
+    width: 95%;
+    margin: 20px auto;
+  }
+  .future-content {
+    display: flex;
+    flex-direction: column;
+  }
+  #future-continer {
+    padding: 20px;
+  }
+
+  .header h2 {
+    font-size: 52px;
+    margin-bottom: 60px;
+  }
 }
